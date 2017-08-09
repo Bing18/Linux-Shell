@@ -1,0 +1,23 @@
+Insrtuctions to run the code:
+1. make -f make
+2. ./shell
+this opens the shell and can be used for executing commands
+The code has following functionalities:
+The shell displays <Name@hostname:~>
+commands like cd,echo,pwd,ls  can be executed with flags
+shell supports background process with command &
+Once the background process exits it displays the pid of the process
+pinfo command can be executed for process related info.
+Code:
+exec_command.c:
+To execute commands like ls,exit
+echo.c:
+To execute echo command
+exit_child.c:
+to get pid of exited background process
+
+
+
+
+
+

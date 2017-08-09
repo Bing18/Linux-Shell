@@ -1,0 +1,42 @@
+Insrtuctions to run the code:
+1. make
+2. ./shell
+
+
+This opens the shell and can be used for executing commands
+The code has following functionalities:
+The shell displays <Name@hostname:~>
+commands like cd,echo,pwd,ls  can be executed with flags
+shell supports background process with command &
+Once the background process exits it displays the pid of the process
+pinfo command can be executed for process related info.
+
+Including the above features it also supports the following:
+
+i/o redirection
+piping
+piping with redirection
+jobs(list all jobs)
+kjobs(kill a job)
+killallbg(kill all background process)
+fg command
+quit command
+CTRL-C
+CTRL-D
+
+Decisions:
+While giving commands with pipes/redirection there has to be a space before and after pipe(|) or redirection(>,<,>>)
+
+Code:
+exec_command.c:
+To execute commands like ls,exit
+echo.c:
+To execute echo command with environmental variables
+piping.c:
+To execute commands with pipes
+redirection.c:
+TO execute i/o redirection commands
+prompt.c:
+To print the prompt(username,hostname) everytime 
+
+
