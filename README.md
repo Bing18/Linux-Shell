@@ -2,14 +2,10 @@
 A bash-like shell which can execute some commands with features like piping,redirection,background process.
 
 # FEATURES
-  a.It supports ";" seperated commands
-	b. It supports environment variables to be displayed using echo
-	c.A shell with piping,redirection and some other useful commands.
 
-# FEATURES
-  a. It supports ";" seperated commands
-	b. It supports environment variables to be displayed using echo
-	c. It supports cd command by taking the current present dir as home directory
+  * a. It supports ";" seperated commands
+*	b. It supports environment variables to be displayed using echo
+*	c. It supports cd command by taking the current present dir as home directory
 	d. It supports of pushing processes background
 	e. we can know the exit status of any background processes present
 	f. It prints the pinfo of the given process's pid
